@@ -70,8 +70,8 @@
           <attvalue for="prev_cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="329.41446" y="-149.14061" z="0.0"></viz:position>
-        <viz:color r="240" g="95" b="190"></viz:color>
+        <viz:position x="-178.73808" y="105.51173" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="173" label="Total">
         <attvalues>
@@ -92,8 +92,8 @@
           <attvalue for="prev_cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="47.5"></viz:size>
-        <viz:position x="2003.0571" y="-557.41425" z="0.0"></viz:position>
-        <viz:color r="204" g="252" b="13"></viz:color>
+        <viz:position x="-19.27567" y="410.09348" z="0.0"></viz:position>
+        <viz:color r="187" g="15" b="9"></viz:color>
       </node>
       <node id="174" label="Emo">
         <attvalues>
@@ -113,8 +113,8 @@
           <attvalue for="prev_cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="1919.2943" y="-917.12787" z="0.0"></viz:position>
-        <viz:color r="80" g="208" b="28"></viz:color>
+        <viz:position x="14.357081" y="413.778" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="175" label="INC Natural Resources">
         <attvalues>
@@ -133,8 +133,8 @@
           <attvalue for="prev_cluster" value="172"></attvalue>
         </attvalues>
         <viz:size value="7.5"></viz:size>
-        <viz:position x="-8292.947" y="-1260.1404" z="0.0"></viz:position>
-        <viz:color r="233" g="246" b="203"></viz:color>
+        <viz:position x="139.668" y="-302.6428" z="0.0"></viz:position>
+        <viz:color r="253" g="229" b="202"></viz:color>
       </node>
       <node id="176" label="Crownwell">
         <attvalues>
@@ -154,8 +154,8 @@
           <attvalue for="prev_cluster" value="173"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-1091.6534" y="-8165.7876" z="0.0"></viz:position>
-        <viz:color r="160" g="24" b="237"></viz:color>
+        <viz:position x="515.2571" y="-167.9486" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="177" label="Platinum Natural Resources">
         <attvalues>
@@ -175,8 +175,8 @@
           <attvalue for="prev_cluster" value="173"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-1226.3193" y="-8202.7295" z="0.0"></viz:position>
-        <viz:color r="160" g="24" b="237"></viz:color>
+        <viz:position x="518.32697" y="-161.57765" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="178" label="Oranto Petroleum">
         <attvalues>
@@ -195,8 +195,8 @@
           <attvalue for="prev_cluster" value="174"></attvalue>
         </attvalues>
         <viz:size value="7.5"></viz:size>
-        <viz:position x="5557.362" y="6410.288" z="0.0"></viz:position>
-        <viz:color r="233" g="246" b="203"></viz:color>
+        <viz:position x="136.44678" y="-239.78128" z="0.0"></viz:position>
+        <viz:color r="253" g="229" b="202"></viz:color>
       </node>
       <node id="179" label="Korean National Oil Corporation">
         <attvalues>
@@ -216,8 +216,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="1044.9568" y="-334.9248" z="0.0"></viz:position>
-        <viz:color r="252" g="91" b="13"></viz:color>
+        <viz:position x="-182.1921" y="243.88165" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="180" label="Equator Exploration">
         <attvalues>
@@ -237,8 +237,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="1024.5652" y="-239.95183" z="0.0"></viz:position>
-        <viz:color r="252" g="91" b="13"></viz:color>
+        <viz:position x="-174.89821" y="238.48267" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="181" label="Oando">
         <attvalues>
@@ -258,8 +258,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="50.0"></viz:size>
-        <viz:position x="1268.7017" y="-80.21716" z="0.0"></viz:position>
-        <viz:color r="101" g="13" b="252"></viz:color>
+        <viz:position x="-156.39896" y="279.46463" z="0.0"></viz:position>
+        <viz:color r="179" g="0" b="0"></viz:color>
       </node>
       <node id="182" label="China National Petroleum Corporation">
         <attvalues>
@@ -277,8 +277,8 @@
           <attvalue for="cluster" value="175"></attvalue>
         </attvalues>
         <viz:size value="7.5"></viz:size>
-        <viz:position x="-309.68646" y="8118.104" z="0.0"></viz:position>
-        <viz:color r="233" g="246" b="203"></viz:color>
+        <viz:position x="198.54448" y="-277.67395" z="0.0"></viz:position>
+        <viz:color r="253" g="229" b="202"></viz:color>
       </node>
       <node id="183" label="Seplat">
         <attvalues>
@@ -298,8 +298,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="15.0"></viz:size>
-        <viz:position x="1937.8644" y="215.51587" z="0.0"></viz:position>
-        <viz:color r="21" g="13" b="252"></viz:color>
+        <viz:position x="-173.3255" y="438.1569" z="0.0"></viz:position>
+        <viz:color r="253" g="196" b="160"></viz:color>
       </node>
       <node id="184" label="NPDC">
         <attvalues>
@@ -319,8 +319,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="45.0"></viz:size>
-        <viz:position x="1629.9402" y="422.85605" z="0.0"></viz:position>
-        <viz:color r="101" g="13" b="252"></viz:color>
+        <viz:position x="-232.25768" y="379.3059" z="0.0"></viz:position>
+        <viz:color r="195" g="31" b="19"></viz:color>
       </node>
       <node id="185" label="NAPIMS">
         <attvalues>
@@ -338,8 +338,8 @@
           <attvalue for="cluster" value="176"></attvalue>
         </attvalues>
         <viz:size value="7.5"></viz:size>
-        <viz:position x="7265.644" y="-4158.678" z="0.0"></viz:position>
-        <viz:color r="233" g="246" b="203"></viz:color>
+        <viz:position x="187.26073" y="-211.12762" z="0.0"></viz:position>
+        <viz:color r="253" g="229" b="202"></viz:color>
       </node>
       <node id="186" label="NNDC">
         <attvalues>
@@ -357,8 +357,8 @@
           <attvalue for="cluster" value="177"></attvalue>
         </attvalues>
         <viz:size value="7.5"></viz:size>
-        <viz:position x="-3253.304" y="-7536.0244" z="0.0"></viz:position>
-        <viz:color r="233" g="246" b="203"></viz:color>
+        <viz:position x="250.65015" y="-242.40425" z="0.0"></viz:position>
+        <viz:color r="253" g="229" b="202"></viz:color>
       </node>
       <node id="187" label="Orient Petroleum Resources">
         <attvalues>
@@ -376,8 +376,8 @@
           <attvalue for="cluster" value="178"></attvalue>
         </attvalues>
         <viz:size value="7.5"></viz:size>
-        <viz:position x="579.09717" y="-8301.26" z="0.0"></viz:position>
-        <viz:color r="233" g="246" b="203"></viz:color>
+        <viz:position x="233.80273" y="-176.64818" z="0.0"></viz:position>
+        <viz:color r="253" g="229" b="202"></viz:color>
       </node>
       <node id="188" label="Conoil">
         <attvalues>
@@ -397,8 +397,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="2207.9739" y="-864.48" z="0.0"></viz:position>
-        <viz:color r="231" g="13" b="252"></viz:color>
+        <viz:position x="33.04391" y="426.914" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="189" label="Global Energy Company">
         <attvalues>
@@ -418,8 +418,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="1491.5295" y="-528.64276" z="0.0"></viz:position>
-        <viz:color r="13" g="252" b="161"></viz:color>
+        <viz:position x="-177.86613" y="361.90903" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="190" label="Eni">
         <attvalues>
@@ -439,8 +439,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="35.0"></viz:size>
-        <viz:position x="1604.4651" y="-202.66263" z="0.0"></viz:position>
-        <viz:color r="204" g="252" b="13"></viz:color>
+        <viz:position x="-145.95522" y="364.56082" z="0.0"></viz:position>
+        <viz:color r="227" g="93" b="59"></viz:color>
       </node>
       <node id="191" label="Nigerian National Petroleum Corporation">
         <attvalues>
@@ -460,8 +460,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="47.5"></viz:size>
-        <viz:position x="1997.5723" y="-170.58809" z="0.0"></viz:position>
-        <viz:color r="101" g="13" b="252"></viz:color>
+        <viz:position x="-101.26393" y="437.24228" z="0.0"></viz:position>
+        <viz:color r="187" g="15" b="9"></viz:color>
       </node>
       <node id="192" label="Shell">
         <attvalues>
@@ -481,8 +481,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="22.5"></viz:size>
-        <viz:position x="1807.1531" y="-443.2503" z="0.0"></viz:position>
-        <viz:color r="101" g="13" b="252"></viz:color>
+        <viz:position x="-108.551956" y="414.979" z="0.0"></viz:position>
+        <viz:color r="252" g="163" b="117"></viz:color>
       </node>
       <node id="193" label="Chevron Nigeria">
         <attvalues>
@@ -502,8 +502,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="42.5"></viz:size>
-        <viz:position x="1835.4819" y="-90.5355" z="0.0"></viz:position>
-        <viz:color r="204" g="252" b="13"></viz:color>
+        <viz:position x="-82.7772" y="378.02026" z="0.0"></viz:position>
+        <viz:color r="203" g="47" b="29"></viz:color>
       </node>
       <node id="194" label="ExxonMobil">
         <attvalues>
@@ -522,8 +522,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="35.0"></viz:size>
-        <viz:position x="1717.9425" y="-141.46106" z="0.0"></viz:position>
-        <viz:color r="80" g="208" b="28"></viz:color>
+        <viz:position x="-108.30247" y="370.8001" z="0.0"></viz:position>
+        <viz:color r="227" g="93" b="59"></viz:color>
       </node>
       <node id="195" label="Oriental Energy Resources Ltd">
         <attvalues>
@@ -542,8 +542,8 @@
           <attvalue for="cluster" value="179"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-4802.2734" y="-2679.2207" z="0.0"></viz:position>
-        <viz:color r="134" g="216" b="107"></viz:color>
+        <viz:position x="585.3244" y="-804.91516" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="196" label="Afren">
         <attvalues>
@@ -563,8 +563,8 @@
           <attvalue for="cluster" value="179"></attvalue>
         </attvalues>
         <viz:size value="35.0"></viz:size>
-        <viz:position x="-4637.244" y="-2537.7668" z="0.0"></viz:position>
-        <viz:color r="151" g="13" b="252"></viz:color>
+        <viz:position x="589.5613" y="-832.7477" z="0.0"></viz:position>
+        <viz:color r="227" g="93" b="59"></viz:color>
       </node>
       <node id="197" label="Amni International">
         <attvalues>
@@ -583,8 +583,8 @@
           <attvalue for="cluster" value="180"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="2285.6226" y="-1020.7234" z="0.0"></viz:position>
-        <viz:color r="173" g="183" b="46"></viz:color>
+        <viz:position x="61.927376" y="408.25793" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="198" label="Erin Energy">
         <attvalues>
@@ -604,8 +604,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="25.0"></viz:size>
-        <viz:position x="537.98517" y="-286.1918" z="0.0"></viz:position>
-        <viz:color r="101" g="13" b="252"></viz:color>
+        <viz:position x="-184.52733" y="128.81741" z="0.0"></viz:position>
+        <viz:color r="252" g="152" b="103"></viz:color>
       </node>
       <node id="199" label="Agip Energy &amp; Natural Resource">
         <attvalues>
@@ -624,8 +624,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="321.61874" y="-468.38852" z="0.0"></viz:position>
-        <viz:color r="67" g="49" b="219"></viz:color>
+        <viz:position x="-192.24684" y="106.91884" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="200" label="Statoil Nigeria">
         <attvalues>
@@ -644,8 +644,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="2089.8052" y="206.40828" z="0.0"></viz:position>
-        <viz:color r="80" g="208" b="28"></viz:color>
+        <viz:position x="-50.4451" y="346.45844" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="201" label="Addax Petroleum">
         <attvalues>
@@ -665,8 +665,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="17.5"></viz:size>
-        <viz:position x="-432.1097" y="-602.92084" z="0.0"></viz:position>
-        <viz:color r="101" g="13" b="252"></viz:color>
+        <viz:position x="-218.08076" y="-25.52028" z="0.0"></viz:position>
+        <viz:color r="252" g="185" b="145"></viz:color>
       </node>
       <node id="202" label="Express Petroleum &amp; Gas Co Ltd">
         <attvalues>
@@ -686,8 +686,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="20.0"></viz:size>
-        <viz:position x="-43.074272" y="-469.37848" z="0.0"></viz:position>
-        <viz:color r="101" g="13" b="252"></viz:color>
+        <viz:position x="-207.68419" y="23.967697" z="0.0"></viz:position>
+        <viz:color r="252" g="174" b="131"></viz:color>
       </node>
       <node id="203" label="Shebbah Exploration and Production">
         <attvalues>
@@ -706,8 +706,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="128.95003" y="-253.27745" z="0.0"></viz:position>
-        <viz:color r="67" g="49" b="219"></viz:color>
+        <viz:position x="-197.73424" y="65.79576" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="204" label="Atlas Petroleum">
         <attvalues>
@@ -726,8 +726,8 @@
           <attvalue for="cluster" value="181"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-4392.233" y="4548.141" z="0.0"></viz:position>
-        <viz:color r="227" g="191" b="125"></viz:color>
+        <viz:position x="775.6494" y="25.925089" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="205" label="Summit Oil International Ltd">
         <attvalues>
@@ -746,8 +746,8 @@
           <attvalue for="cluster" value="181"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="-4248.179" y="4649.992" z="0.0"></viz:position>
-        <viz:color r="227" g="191" b="125"></viz:color>
+        <viz:position x="789.29095" y="26.788197" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="206" label="Cavendish Petroleum Nigeria">
         <attvalues>
@@ -765,8 +765,8 @@
           <attvalue for="cluster" value="182"></attvalue>
         </attvalues>
         <viz:size value="7.5"></viz:size>
-        <viz:position x="-7421.359" y="-3975.124" z="0.0"></viz:position>
-        <viz:color r="233" g="246" b="203"></viz:color>
+        <viz:position x="299.42325" y="-197.11433" z="0.0"></viz:position>
+        <viz:color r="253" g="229" b="202"></viz:color>
       </node>
       <node id="207" label="Yinka Folawiyo Petroleum Co Ltd">
         <attvalues>
@@ -786,8 +786,8 @@
           <attvalue for="cluster" value="183"></attvalue>
         </attvalues>
         <viz:size value="17.5"></viz:size>
-        <viz:position x="1778.8057" y="1584.3109" z="0.0"></viz:position>
-        <viz:color r="101" g="13" b="252"></viz:color>
+        <viz:position x="-501.20157" y="436.33267" z="0.0"></viz:position>
+        <viz:color r="252" g="185" b="145"></viz:color>
       </node>
       <node id="208" label="New AGE">
         <attvalues>
@@ -807,8 +807,8 @@
           <attvalue for="cluster" value="183"></attvalue>
         </attvalues>
         <viz:size value="17.5"></viz:size>
-        <viz:position x="1635.6744" y="1595.5402" z="0.0"></viz:position>
-        <viz:color r="101" g="13" b="252"></viz:color>
+        <viz:position x="-503.01855" y="422.0029" z="0.0"></viz:position>
+        <viz:color r="252" g="185" b="145"></viz:color>
       </node>
       <node id="209" label="First Hydrocarbon Nigeria">
         <attvalues>
@@ -828,8 +828,8 @@
           <attvalue for="cluster" value="183"></attvalue>
         </attvalues>
         <viz:size value="20.0"></viz:size>
-        <viz:position x="1674.2367" y="1248.7698" z="0.0"></viz:position>
-        <viz:color r="101" g="13" b="252"></viz:color>
+        <viz:position x="-454.33636" y="420.57315" z="0.0"></viz:position>
+        <viz:color r="252" g="174" b="131"></viz:color>
       </node>
       <node id="210" label="Energy Equity Resources">
         <attvalues>
@@ -849,8 +849,8 @@
           <attvalue for="cluster" value="183"></attvalue>
         </attvalues>
         <viz:size value="25.0"></viz:size>
-        <viz:position x="1718.7347" y="1776.5913" z="0.0"></viz:position>
-        <viz:color r="101" g="13" b="252"></viz:color>
+        <viz:position x="-528.38715" y="432.43463" z="0.0"></viz:position>
+        <viz:color r="252" g="152" b="103"></viz:color>
       </node>
       <node id="211" label="Panoro Energy">
         <attvalues>
@@ -870,8 +870,8 @@
           <attvalue for="cluster" value="183"></attvalue>
         </attvalues>
         <viz:size value="17.5"></viz:size>
-        <viz:position x="1706.6183" y="1567.4631" z="0.0"></viz:position>
-        <viz:color r="101" g="13" b="252"></viz:color>
+        <viz:position x="-493.54388" y="428.16025" z="0.0"></viz:position>
+        <viz:color r="252" g="185" b="145"></viz:color>
       </node>
       <node id="212" label="Famfa Oil Ltd">
         <attvalues>
@@ -891,8 +891,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="15.0"></viz:size>
-        <viz:position x="2121.733" y="-203.09747" z="0.0"></viz:position>
-        <viz:color r="101" g="13" b="252"></viz:color>
+        <viz:position x="-63.1254" y="432.75806" z="0.0"></viz:position>
+        <viz:color r="253" g="196" b="160"></viz:color>
       </node>
       <node id="213" label="Petrobras">
         <attvalues>
@@ -911,8 +911,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="22.5"></viz:size>
-        <viz:position x="2125.0103" y="-376.07303" z="0.0"></viz:position>
-        <viz:color r="80" g="208" b="28"></viz:color>
+        <viz:position x="-35.306812" y="441.0859" z="0.0"></viz:position>
+        <viz:color r="252" g="163" b="117"></viz:color>
       </node>
       <node id="214" label="CNOOC">
         <attvalues>
@@ -932,8 +932,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="15.0"></viz:size>
-        <viz:position x="2304.6528" y="-574.1241" z="0.0"></viz:position>
-        <viz:color r="204" g="252" b="13"></viz:color>
+        <viz:position x="1.8539152" y="445.9546" z="0.0"></viz:position>
+        <viz:color r="253" g="196" b="160"></viz:color>
       </node>
       <node id="215" label="South Atlantic Petroleum Ltd">
         <attvalues>
@@ -953,8 +953,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="15.0"></viz:size>
-        <viz:position x="2237.2534" y="-630.1645" z="0.0"></viz:position>
-        <viz:color r="204" g="252" b="13"></viz:color>
+        <viz:position x="-3.6705022" y="453.62308" z="0.0"></viz:position>
+        <viz:color r="253" g="196" b="160"></viz:color>
       </node>
       <node id="216" label="Medal Oil">
         <attvalues>
@@ -973,8 +973,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="999.1187" y="-80.98262" z="0.0"></viz:position>
-        <viz:color r="93" g="112" b="93"></viz:color>
+        <viz:position x="-143.90556" y="243.11852" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="217" label="Sinopec">
         <attvalues>
@@ -994,8 +994,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="15.0"></viz:size>
-        <viz:position x="1726.4775" y="-262.1963" z="0.0"></viz:position>
-        <viz:color r="252" g="13" b="64"></viz:color>
+        <viz:position x="-69.862465" y="356.1324" z="0.0"></viz:position>
+        <viz:color r="253" g="196" b="160"></viz:color>
       </node>
       <node id="218" label="Nexen">
         <attvalues>
@@ -1015,8 +1015,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="20.0"></viz:size>
-        <viz:position x="1833.9095" y="-344.87766" z="0.0"></viz:position>
-        <viz:color r="252" g="13" b="64"></viz:color>
+        <viz:position x="-49.966167" y="369.82404" z="0.0"></viz:position>
+        <viz:color r="252" g="174" b="131"></viz:color>
       </node>
       <node id="219" label="Sasol">
         <attvalues>
@@ -1035,8 +1035,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="2044.0789" y="108.568016" z="0.0"></viz:position>
-        <viz:color r="80" g="208" b="28"></viz:color>
+        <viz:position x="-61.815483" y="340.90292" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="220" label="Emerald Energy Resources">
         <attvalues>
@@ -1055,8 +1055,8 @@
           <attvalue for="cluster" value="180"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="2476.2524" y="-1317.5999" z="0.0"></viz:position>
-        <viz:color r="173" g="183" b="46"></viz:color>
+        <viz:position x="93.23091" y="407.00446" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="221" label="Suntera">
         <attvalues>
@@ -1076,8 +1076,8 @@
           <attvalue for="cluster" value="181"></attvalue>
         </attvalues>
         <viz:size value="15.0"></viz:size>
-        <viz:position x="-4050.27" y="4713.2817" z="0.0"></viz:position>
-        <viz:color r="74" g="252" b="13"></viz:color>
+        <viz:position x="809.4329" y="28.238222" z="0.0"></viz:position>
+        <viz:color r="253" g="196" b="160"></viz:color>
       </node>
       <node id="222" label="Sterling">
         <attvalues>
@@ -1097,8 +1097,8 @@
           <attvalue for="cluster" value="179"></attvalue>
         </attvalues>
         <viz:size value="17.5"></viz:size>
-        <viz:position x="-4940.82" y="-1840.1309" z="0.0"></viz:position>
-        <viz:color r="13" g="252" b="31"></viz:color>
+        <viz:position x="458.33124" y="-822.98413" z="0.0"></viz:position>
+        <viz:color r="252" g="185" b="145"></viz:color>
       </node>
       <node id="223" label="Allene">
         <attvalues>
@@ -1118,8 +1118,8 @@
           <attvalue for="cluster" value="179"></attvalue>
         </attvalues>
         <viz:size value="20.0"></viz:size>
-        <viz:position x="-4801.657" y="-2210.7407" z="0.0"></viz:position>
-        <viz:color r="13" g="252" b="31"></viz:color>
+        <viz:position x="530.7519" y="-830.3114" z="0.0"></viz:position>
+        <viz:color r="252" g="174" b="131"></viz:color>
       </node>
       <node id="224" label="Svenska">
         <attvalues>
@@ -1139,8 +1139,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="20.0"></viz:size>
-        <viz:position x="1575.0931" y="57.442345" z="0.0"></viz:position>
-        <viz:color r="101" g="13" b="252"></viz:color>
+        <viz:position x="-150.72374" y="345.25433" z="0.0"></viz:position>
+        <viz:color r="252" g="174" b="131"></viz:color>
       </node>
       <node id="225" label="Newcross">
         <attvalues>
@@ -1159,8 +1159,8 @@
           <attvalue for="cluster" value="184"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="2553.703" y="-172.07927" z="0.0"></viz:position>
-        <viz:color r="201" g="128" b="251"></viz:color>
+        <viz:position x="-90.64373" y="512.83954" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="226" label="Aiteo">
         <attvalues>
@@ -1179,8 +1179,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="2361.3289" y="-12.25437" z="0.0"></viz:position>
-        <viz:color r="80" g="208" b="28"></viz:color>
+        <viz:position x="-97.92843" y="475.57043" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="227" label="Shoreline Natural Resources">
         <attvalues>
@@ -1199,8 +1199,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="1371.1527" y="619.54266" z="0.0"></viz:position>
-        <viz:color r="80" g="208" b="28"></viz:color>
+        <viz:position x="-251.59149" y="402.34436" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="228" label="ND Western">
         <attvalues>
@@ -1219,8 +1219,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="1595.1091" y="672.1045" z="0.0"></viz:position>
-        <viz:color r="80" g="208" b="28"></viz:color>
+        <viz:position x="-267.6909" y="366.40662" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="229" label="Elcrest">
         <attvalues>
@@ -1239,8 +1239,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="1671.155" y="790.4244" z="0.0"></viz:position>
-        <viz:color r="214" g="32" b="61"></viz:color>
+        <viz:position x="-256.2385" y="357.22394" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="230" label="Neconde Energy">
         <attvalues>
@@ -1259,8 +1259,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="1890.9596" y="627.83545" z="0.0"></viz:position>
-        <viz:color r="80" g="208" b="28"></viz:color>
+        <viz:position x="-256.84137" y="391.70566" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="231" label="Belema Oil">
         <attvalues>
@@ -1280,8 +1280,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="2189.955" y="113.64893" z="0.0"></viz:position>
-        <viz:color r="21" g="13" b="252"></viz:color>
+        <viz:position x="-149.56284" y="458.444" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="232" label="Sogenal">
         <attvalues>
@@ -1300,8 +1300,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="949.22296" y="24.874487" z="0.0"></viz:position>
-        <viz:color r="93" g="112" b="93"></viz:color>
+        <viz:position x="-165.20627" y="252.77281" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="233" label="Dubri Oil Co Ltd">
         <attvalues>
@@ -1319,8 +1319,8 @@
           <attvalue for="cluster" value="185"></attvalue>
         </attvalues>
         <viz:size value="7.5"></viz:size>
-        <viz:position x="-8658.277" y="-148.84665" z="0.0"></viz:position>
-        <viz:color r="233" g="246" b="203"></viz:color>
+        <viz:position x="283.1203" y="-140.16505" z="0.0"></viz:position>
+        <viz:color r="253" g="229" b="202"></viz:color>
       </node>
       <node id="234" label="Pan Ocean Oil Co (Nigeria) Ltd">
         <attvalues>
@@ -1339,8 +1339,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="2367.1582" y="-275.77887" z="0.0"></viz:position>
-        <viz:color r="80" g="208" b="28"></viz:color>
+        <viz:position x="-87.425644" y="471.7673" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="235" label="BLJ">
         <attvalues>
@@ -1360,8 +1360,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="1403.9056" y="-485.7766" z="0.0"></viz:position>
-        <viz:color r="13" g="252" b="161"></viz:color>
+        <viz:position x="-176.44722" y="370.83194" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="236" label="TenOil">
         <attvalues>
@@ -1379,8 +1379,8 @@
           <attvalue for="cluster" value="186"></attvalue>
         </attvalues>
         <viz:size value="7.5"></viz:size>
-        <viz:position x="-2807.6135" y="8045.312" z="0.0"></viz:position>
-        <viz:color r="233" g="246" b="203"></viz:color>
+        <viz:position x="332.82626" y="-114.79406" z="0.0"></viz:position>
+        <viz:color r="253" g="229" b="202"></viz:color>
       </node>
       <node id="237" label="Sigmund Oilfields/Grasso Consortium">
         <attvalues>
@@ -1398,8 +1398,8 @@
           <attvalue for="cluster" value="187"></attvalue>
         </attvalues>
         <viz:size value="7.5"></viz:size>
-        <viz:position x="-8407.647" y="2304.9785" z="0.0"></viz:position>
-        <viz:color r="233" g="246" b="203"></viz:color>
+        <viz:position x="-40.53865" y="-328.62955" z="0.0"></viz:position>
+        <viz:color r="253" g="229" b="202"></viz:color>
       </node>
       <node id="238" label="Noreast Petroleum Nigeria Ltd">
         <attvalues>
@@ -1418,8 +1418,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="2326.451" y="-793.91095" z="0.0"></viz:position>
-        <viz:color r="80" g="208" b="28"></viz:color>
+        <viz:position x="15.601972" y="391.70544" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="239" label="Nigerian Petroleum Development Company">
         <attvalues>
@@ -1439,8 +1439,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="17.5"></viz:size>
-        <viz:position x="1912.6482" y="-315.61163" z="0.0"></viz:position>
-        <viz:color r="252" g="13" b="64"></viz:color>
+        <viz:position x="-50.144905" y="383.39105" z="0.0"></viz:position>
+        <viz:color r="252" g="185" b="145"></viz:color>
       </node>
       <node id="240" label="Essar">
         <attvalues>
@@ -1459,8 +1459,8 @@
           <attvalue for="cluster" value="188"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-6204.959" y="5969.3022" z="0.0"></viz:position>
-        <viz:color r="188" g="224" b="186"></viz:color>
+        <viz:position x="-447.5715" y="-439.2235" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="241" label="Agamore Energy">
         <attvalues>
@@ -1479,8 +1479,8 @@
           <attvalue for="cluster" value="188"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-6078.0483" y="6027.6787" z="0.0"></viz:position>
-        <viz:color r="188" g="224" b="186"></viz:color>
+        <viz:position x="-440.9184" y="-441.57693" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="242" label="Petroleum Prospects International">
         <attvalues>
@@ -1500,8 +1500,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="15.0"></viz:size>
-        <viz:position x="-296.8021" y="-618.0403" z="0.0"></viz:position>
-        <viz:color r="101" g="13" b="252"></viz:color>
+        <viz:position x="-210.16539" y="-11.709271" z="0.0"></viz:position>
+        <viz:color r="253" g="196" b="160"></viz:color>
       </node>
       <node id="243" label="Niger Delta Exploration and Production">
         <attvalues>
@@ -1521,8 +1521,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="15.0"></viz:size>
-        <viz:position x="-330.32794" y="-506.9969" z="0.0"></viz:position>
-        <viz:color r="101" g="13" b="252"></viz:color>
+        <viz:position x="-220.64389" y="-9.751046" z="0.0"></viz:position>
+        <viz:color r="253" g="196" b="160"></viz:color>
       </node>
       <node id="244" label="Sahara Energy">
         <attvalues>
@@ -1542,8 +1542,8 @@
           <attvalue for="cluster" value="189"></attvalue>
         </attvalues>
         <viz:size value="15.0"></viz:size>
-        <viz:position x="3014.6526" y="7087.948" z="0.0"></viz:position>
-        <viz:color r="13" g="214" b="252"></viz:color>
+        <viz:position x="-466.6436" y="-709.81213" z="0.0"></viz:position>
+        <viz:color r="253" g="196" b="160"></viz:color>
       </node>
       <node id="245" label="Nigdel">
         <attvalues>
@@ -1563,8 +1563,8 @@
           <attvalue for="cluster" value="183"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="1859.5286" y="2066.933" z="0.0"></viz:position>
-        <viz:color r="252" g="13" b="144"></viz:color>
+        <viz:position x="-559.2207" y="425.94913" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="246" label="SacOil">
         <attvalues>
@@ -1584,8 +1584,8 @@
           <attvalue for="cluster" value="183"></attvalue>
         </attvalues>
         <viz:size value="15.0"></viz:size>
-        <viz:position x="1755.8602" y="2092.8044" z="0.0"></viz:position>
-        <viz:color r="252" g="13" b="144"></viz:color>
+        <viz:position x="-565.29297" y="435.9216" z="0.0"></viz:position>
+        <viz:color r="253" g="196" b="160"></viz:color>
       </node>
       <node id="247" label="RFO Ventures">
         <attvalues>
@@ -1604,8 +1604,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="979.26886" y="132.72977" z="0.0"></viz:position>
-        <viz:color r="93" g="112" b="93"></viz:color>
+        <viz:position x="-154.09846" y="246.95952" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="248" label="Sunlink Petroleum">
         <attvalues>
@@ -1624,8 +1624,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="1713.61" y="-800.1125" z="0.0"></viz:position>
-        <viz:color r="80" g="208" b="28"></viz:color>
+        <viz:position x="-130.77826" y="432.01566" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="249" label="Bayelsa Oil">
         <attvalues>
@@ -1644,8 +1644,8 @@
           <attvalue for="cluster" value="190"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="1426.8876" y="8224.102" z="0.0"></viz:position>
-        <viz:color r="119" g="175" b="222"></viz:color>
+        <viz:position x="-281.65823" y="-496.16168" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="250" label="Tianjin Energy Resources">
         <attvalues>
@@ -1664,8 +1664,8 @@
           <attvalue for="cluster" value="190"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="1343.6295" y="8335.379" z="0.0"></viz:position>
-        <viz:color r="119" g="175" b="222"></viz:color>
+        <viz:position x="-274.61246" y="-496.18982" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="251" label="Owena Oil and Gas">
         <attvalues>
@@ -1684,8 +1684,8 @@
           <attvalue for="cluster" value="191"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-1175.9987" y="8381.756" z="0.0"></viz:position>
-        <viz:color r="106" g="16" b="158"></viz:color>
+        <viz:position x="-167.26266" y="-559.7849" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="252" label="OilWorld">
         <attvalues>
@@ -1704,8 +1704,8 @@
           <attvalue for="cluster" value="191"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-1248.1877" y="8269.013" z="0.0"></viz:position>
-        <viz:color r="106" g="16" b="158"></viz:color>
+        <viz:position x="-168.6625" y="-566.70013" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="253" label="Ocean Energy">
         <attvalues>
@@ -1724,8 +1724,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="1753.0769" y="658.89136" z="0.0"></viz:position>
-        <viz:color r="80" g="208" b="28"></viz:color>
+        <viz:position x="-261.94824" y="380.06763" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="254" label="Heritage Oil&amp;Gas">
         <attvalues>
@@ -1744,8 +1744,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="2100.9092" y="-36.609104" z="0.0"></viz:position>
-        <viz:color r="80" g="208" b="28"></viz:color>
+        <viz:position x="-81.52027" y="415.08887" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="255" label="Zebra Energy">
         <attvalues>
@@ -1764,8 +1764,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="2381.1804" y="-142.09622" z="0.0"></viz:position>
-        <viz:color r="80" g="208" b="28"></viz:color>
+        <viz:position x="-109.31118" y="474.74606" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="256" label="China Sonangol International">
         <attvalues>
@@ -1784,8 +1784,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="1824.2452" y="748.38184" z="0.0"></viz:position>
-        <viz:color r="80" g="208" b="28"></viz:color>
+        <viz:position x="-256.40494" y="369.0658" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="257" label="New Tigerhead PSTI">
         <attvalues>
@@ -1805,8 +1805,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="2131.3577" y="-908.13116" z="0.0"></viz:position>
-        <viz:color r="231" g="13" b="252"></viz:color>
+        <viz:position x="34.627113" y="418.15805" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="258" label="Enageed-Sahara Group">
         <attvalues>
@@ -1824,8 +1824,8 @@
           <attvalue for="cluster" value="192"></attvalue>
         </attvalues>
         <viz:size value="7.5"></viz:size>
-        <viz:position x="3859.8696" y="-7259.4644" z="0.0"></viz:position>
-        <viz:color r="233" g="246" b="203"></viz:color>
+        <viz:position x="14.365988" y="-307.58426" z="0.0"></viz:position>
+        <viz:color r="253" g="229" b="202"></viz:color>
       </node>
       <node id="259" label="Centrica">
         <attvalues>
@@ -1844,8 +1844,8 @@
           <attvalue for="cluster" value="193"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-3464.557" y="7264.505" z="0.0"></viz:position>
-        <viz:color r="26" g="200" b="204"></viz:color>
+        <viz:position x="-46.825397" y="-551.5173" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="260" label="Albright Waves Petroleum Development">
         <attvalues>
@@ -1864,8 +1864,8 @@
           <attvalue for="cluster" value="193"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-3575.792" y="7180.835" z="0.0"></viz:position>
-        <viz:color r="26" g="200" b="204"></viz:color>
+        <viz:position x="-46.59633" y="-558.5671" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="261" label="Domon Oil Services">
         <attvalues>
@@ -1885,8 +1885,8 @@
           <attvalue for="cluster" value="179"></attvalue>
         </attvalues>
         <viz:size value="15.0"></viz:size>
-        <viz:position x="-5074.099" y="-1683.7896" z="0.0"></viz:position>
-        <viz:color r="13" g="252" b="31"></viz:color>
+        <viz:position x="437.8578" y="-813.83307" z="0.0"></viz:position>
+        <viz:color r="253" g="196" b="160"></viz:color>
       </node>
       <node id="262" label="Kunoch Oil Services">
         <attvalues>
@@ -1906,8 +1906,8 @@
           <attvalue for="cluster" value="179"></attvalue>
         </attvalues>
         <viz:size value="15.0"></viz:size>
-        <viz:position x="-4948.305" y="-1647.0751" z="0.0"></viz:position>
-        <viz:color r="13" g="252" b="31"></viz:color>
+        <viz:position x="428.63382" y="-818.898" z="0.0"></viz:position>
+        <viz:color r="253" g="196" b="160"></viz:color>
       </node>
       <node id="263" label="Prime Time International Energy Services">
         <attvalues>
@@ -1927,8 +1927,8 @@
           <attvalue for="cluster" value="179"></attvalue>
         </attvalues>
         <viz:size value="15.0"></viz:size>
-        <viz:position x="-5031.443" y="-1590.9755" z="0.0"></viz:position>
-        <viz:color r="13" g="252" b="31"></viz:color>
+        <viz:position x="436.17322" y="-826.22797" z="0.0"></viz:position>
+        <viz:color r="253" g="196" b="160"></viz:color>
       </node>
       <node id="264" label="Allied Energy Resources Nigeria">
         <attvalues>
@@ -1948,8 +1948,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="15.0"></viz:size>
-        <viz:position x="814.1889" y="-147.04196" z="0.0"></viz:position>
-        <viz:color r="101" g="13" b="252"></viz:color>
+        <viz:position x="-177.99783" y="185.79799" z="0.0"></viz:position>
+        <viz:color r="253" g="196" b="160"></viz:color>
       </node>
       <node id="265" label="First Axis Oil &amp; Gas">
         <attvalues>
@@ -1969,8 +1969,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="15.0"></viz:size>
-        <viz:position x="833.47705" y="-231.39786" z="0.0"></viz:position>
-        <viz:color r="101" g="13" b="252"></viz:color>
+        <viz:position x="-168.49634" y="184.23497" z="0.0"></viz:position>
+        <viz:color r="253" g="196" b="160"></viz:color>
       </node>
       <node id="266" label="Transcorp">
         <attvalues>
@@ -1990,8 +1990,8 @@
           <attvalue for="cluster" value="183"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="1645.8508" y="2084.3523" z="0.0"></viz:position>
-        <viz:color r="252" g="13" b="144"></viz:color>
+        <viz:position x="-556.88104" y="443.46454" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="267" label="Alliance Oil Production">
         <attvalues>
@@ -2011,8 +2011,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="15.0"></viz:size>
-        <viz:position x="1333.1104" y="-280.5466" z="0.0"></viz:position>
-        <viz:color r="101" g="13" b="252"></viz:color>
+        <viz:position x="-154.03148" y="310.99982" z="0.0"></viz:position>
+        <viz:color r="253" g="196" b="160"></viz:color>
       </node>
       <node id="268" label="Arc Oil&amp;Gas">
         <attvalues>
@@ -2032,8 +2032,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="15.0"></viz:size>
-        <viz:position x="1366.1107" y="-188.08118" z="0.0"></viz:position>
-        <viz:color r="101" g="13" b="252"></viz:color>
+        <viz:position x="-164.5871" y="311.9217" z="0.0"></viz:position>
+        <viz:color r="253" g="196" b="160"></viz:color>
       </node>
       <node id="269" label="Rayflosh">
         <attvalues>
@@ -2052,8 +2052,8 @@
           <attvalue for="cluster" value="184"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="2922.3538" y="-192.63747" z="0.0"></viz:position>
-        <viz:color r="201" g="128" b="251"></viz:color>
+        <viz:position x="-85.531456" y="541.6014" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="270" label="Lotus">
         <attvalues>
@@ -2072,8 +2072,8 @@
           <attvalue for="cluster" value="189"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="3148.0896" y="6977.456" z="0.0"></viz:position>
-        <viz:color r="108" g="153" b="233"></viz:color>
+        <viz:position x="-458.45175" y="-697.7633" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="271" label="BG Group">
         <attvalues>
@@ -2093,8 +2093,8 @@
           <attvalue for="cluster" value="189"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="2846.569" y="7146.415" z="0.0"></viz:position>
-        <viz:color r="13" g="214" b="252"></viz:color>
+        <viz:position x="-477.25912" y="-716.6152" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="272" label="Equinox Group">
         <attvalues>
@@ -2114,8 +2114,8 @@
           <attvalue for="cluster" value="189"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="2931.8948" y="7202.1133" z="0.0"></viz:position>
-        <viz:color r="13" g="214" b="252"></viz:color>
+        <viz:position x="-469.3306" y="-722.1202" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="273" label="Cleanwaters">
         <attvalues>
@@ -2134,8 +2134,8 @@
           <attvalue for="cluster" value="194"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-6351.237" y="-5110.2275" z="0.0"></viz:position>
-        <viz:color r="242" g="232" b="10"></viz:color>
+        <viz:position x="85.62867" y="-491.71893" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="274" label="Seven Waves">
         <attvalues>
@@ -2154,8 +2154,8 @@
           <attvalue for="cluster" value="194"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-6211.5317" y="-5120.0615" z="0.0"></viz:position>
-        <viz:color r="242" g="232" b="10"></viz:color>
+        <viz:position x="92.19494" y="-489.13437" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="275" label="Starcrest">
         <attvalues>
@@ -2174,8 +2174,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="-712.59906" y="-697.494" z="0.0"></viz:position>
-        <viz:color r="121" g="57" b="43"></viz:color>
+        <viz:position x="-221.21701" y="-48.905704" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="276" label="ONGC Mittal/Videsh">
         <attvalues>
@@ -2194,8 +2194,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="2024.5042" y="-946.41235" z="0.0"></viz:position>
-        <viz:color r="80" g="208" b="28"></viz:color>
+        <viz:position x="18.281488" y="402.0997" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
       <node id="277" label="Optimum Oil and Gas">
         <attvalues>
@@ -2215,8 +2215,8 @@
           <attvalue for="cluster" value="179"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="-4404.5913" y="-2576.8284" z="0.0"></viz:position>
-        <viz:color r="151" g="13" b="252"></viz:color>
+        <viz:position x="587.61597" y="-858.6396" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="278" label="Lekoil">
         <attvalues>
@@ -2236,8 +2236,8 @@
           <attvalue for="cluster" value="179"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="-4436.516" y="-2465.938" z="0.0"></viz:position>
-        <viz:color r="151" g="13" b="252"></viz:color>
+        <viz:position x="596.235" y="-857.91266" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="279" label="Dajo Oil">
         <attvalues>
@@ -2256,8 +2256,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="2028.9005" y="-441.28482" z="0.0"></viz:position>
-        <viz:color r="80" g="208" b="28"></viz:color>
+        <viz:position x="-116.35145" y="452.2702" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="280" label="Ashbert">
         <attvalues>
@@ -2277,8 +2277,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="1443.8982" y="711.6814" z="0.0"></viz:position>
-        <viz:color r="252" g="221" b="13"></viz:color>
+        <viz:position x="-276.9996" y="397.50696" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="281" label="Trian Energy/Cosy Energy">
         <attvalues>
@@ -2298,8 +2298,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="1521.0175" y="773.0192" z="0.0"></viz:position>
-        <viz:color r="252" g="221" b="13"></viz:color>
+        <viz:position x="-280.3038" y="389.01602" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="282" label="North-South Petroleum">
         <attvalues>
@@ -2317,8 +2317,8 @@
           <attvalue for="cluster" value="195"></attvalue>
         </attvalues>
         <viz:size value="7.5"></viz:size>
-        <viz:position x="-6811.7505" y="4434.1377" z="0.0"></viz:position>
-        <viz:color r="233" g="246" b="203"></viz:color>
+        <viz:position x="71.950226" y="-321.2853" z="0.0"></viz:position>
+        <viz:color r="253" g="229" b="202"></viz:color>
       </node>
       <node id="283" label="New Nigeria Development Company">
         <attvalues>
@@ -2336,8 +2336,8 @@
           <attvalue for="cluster" value="196"></attvalue>
         </attvalues>
         <viz:size value="7.5"></viz:size>
-        <viz:position x="-8665.954" y="949.55304" z="0.0"></viz:position>
-        <viz:color r="233" g="246" b="203"></viz:color>
+        <viz:position x="77.541565" y="-265.0875" z="0.0"></viz:position>
+        <viz:color r="253" g="229" b="202"></viz:color>
       </node>
       <node id="284" label="Gas Transmission and Power">
         <attvalues>
@@ -2357,8 +2357,8 @@
           <attvalue for="cluster" value="181"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="-3914.8254" y="4641.324" z="0.0"></viz:position>
-        <viz:color r="74" g="252" b="13"></viz:color>
+        <viz:position x="822.5371" y="24.611324" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="285" label="Ideal Energy">
         <attvalues>
@@ -2378,8 +2378,8 @@
           <attvalue for="cluster" value="181"></attvalue>
         </attvalues>
         <viz:size value="12.5"></viz:size>
-        <viz:position x="-3858.6174" y="4743.4097" z="0.0"></viz:position>
-        <viz:color r="74" g="252" b="13"></viz:color>
+        <viz:position x="821.7629" y="34.03988" z="0.0"></viz:position>
+        <viz:color r="253" g="206" b="174"></viz:color>
       </node>
       <node id="286" label="Buston Energy Resources">
         <attvalues>
@@ -2399,8 +2399,8 @@
           <attvalue for="cluster" value="179"></attvalue>
         </attvalues>
         <viz:size value="17.5"></viz:size>
-        <viz:position x="-4799.534" y="-2418.3425" z="0.0"></viz:position>
-        <viz:color r="13" g="252" b="31"></viz:color>
+        <viz:position x="549.6619" y="-839.92706" z="0.0"></viz:position>
+        <viz:color r="252" g="185" b="145"></viz:color>
       </node>
       <node id="287" label="Bepta Oil and Gas">
         <attvalues>
@@ -2420,8 +2420,8 @@
           <attvalue for="cluster" value="179"></attvalue>
         </attvalues>
         <viz:size value="17.5"></viz:size>
-        <viz:position x="-4729.207" y="-2344.4397" z="0.0"></viz:position>
-        <viz:color r="13" g="252" b="31"></viz:color>
+        <viz:position x="557.1881" y="-832.10175" z="0.0"></viz:position>
+        <viz:color r="252" g="185" b="145"></viz:color>
       </node>
       <node id="288" label="KaztecEngineering">
         <attvalues>
@@ -2441,8 +2441,8 @@
           <attvalue for="cluster" value="179"></attvalue>
         </attvalues>
         <viz:size value="17.5"></viz:size>
-        <viz:position x="-4860.356" y="-2372.9382" z="0.0"></viz:position>
-        <viz:color r="13" g="252" b="31"></viz:color>
+        <viz:position x="550.7681" y="-823.3015" z="0.0"></viz:position>
+        <viz:color r="252" g="185" b="145"></viz:color>
       </node>
       <node id="289" label="Petrolog Oil and Gas">
         <attvalues>
@@ -2462,8 +2462,8 @@
           <attvalue for="cluster" value="179"></attvalue>
         </attvalues>
         <viz:size value="17.5"></viz:size>
-        <viz:position x="-4504.201" y="-2723.8855" z="0.0"></viz:position>
-        <viz:color r="13" g="134" b="252"></viz:color>
+        <viz:position x="628.7352" y="-835.28424" z="0.0"></viz:position>
+        <viz:color r="252" g="185" b="145"></viz:color>
       </node>
       <node id="290" label="VP Energy">
         <attvalues>
@@ -2483,8 +2483,8 @@
           <attvalue for="cluster" value="179"></attvalue>
         </attvalues>
         <viz:size value="17.5"></viz:size>
-        <viz:position x="-4515.4653" y="-2809.1938" z="0.0"></viz:position>
-        <viz:color r="13" g="134" b="252"></viz:color>
+        <viz:position x="634.0566" y="-823.8292" z="0.0"></viz:position>
+        <viz:color r="252" g="185" b="145"></viz:color>
       </node>
       <node id="291" label="Goland Petroleum Development Company">
         <attvalues>
@@ -2504,8 +2504,8 @@
           <attvalue for="cluster" value="179"></attvalue>
         </attvalues>
         <viz:size value="17.5"></viz:size>
-        <viz:position x="-4625.884" y="-2809.4907" z="0.0"></viz:position>
-        <viz:color r="13" g="134" b="252"></viz:color>
+        <viz:position x="624.5624" y="-815.5132" z="0.0"></viz:position>
+        <viz:color r="252" g="185" b="145"></viz:color>
       </node>
       <node id="292" label="De Atai Oil Services">
         <attvalues>
@@ -2525,8 +2525,8 @@
           <attvalue for="cluster" value="179"></attvalue>
         </attvalues>
         <viz:size value="17.5"></viz:size>
-        <viz:position x="-4601.361" y="-2719.1863" z="0.0"></viz:position>
-        <viz:color r="13" g="134" b="252"></viz:color>
+        <viz:position x="620.1784" y="-826.74854" z="0.0"></viz:position>
+        <viz:color r="252" g="185" b="145"></viz:color>
       </node>
       <node id="293" label="Peak Petroleum">
         <attvalues>
@@ -2545,8 +2545,8 @@
           <attvalue for="cluster" value="171"></attvalue>
         </attvalues>
         <viz:size value="10.0"></viz:size>
-        <viz:position x="1094.2327" y="159.57095" z="0.0"></viz:position>
-        <viz:color r="93" g="112" b="93"></viz:color>
+        <viz:position x="-137.44159" y="252.22832" z="0.0"></viz:position>
+        <viz:color r="253" g="218" b="188"></viz:color>
       </node>
     </nodes>
     <edges>
