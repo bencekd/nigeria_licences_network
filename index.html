@@ -21,6 +21,18 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/easy-autocomplete.css">
 <script>
 
+var data = {};
+
+  $.ajax({
+    type: "GET",
+    url: "sampleData/sample.json",
+    dataType: "json",
+    // data: data,
+    done: function(data){
+      console.log(data);
+    }
+  })
+
   sigma.classes.graph.addMethod('neighbors', function(nodeId) {
     var k,
         neighbors = {},
@@ -120,7 +132,10 @@
       };
       $("#autocomplete").easyAutocomplete(options);  
     } else {
-      setTimeout(initInput, 500);
+      if(typeof(timer) != 'undefined'){
+        clearTimeout(timer);  
+      }
+      timer = setTimeout(initInput, 200);
     }
   };
 
