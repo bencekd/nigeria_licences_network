@@ -21,17 +21,34 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/easy-autocomplete.css">
 <script>
 
-var data = {};
-
   $.ajax({
     type: "GET",
     url: "https://rawgit.com/bencekd/nigeria_licences_network/master/sampleData/sample.json",
     dataType: "json",
-    // data: data,
     success: function(data){
-      console.log(data);
+      initData(data);
     }
   })
+
+  var selected = [];
+
+  function initData(data){
+    console.log(data);
+    data.data.forEach(function(e){
+      if(e.company_count > 0){
+        e.companies.forEach(function(k){
+          if(k.company_name == "Shell"){
+            projObj = {
+              coordinates: e.proj_coordinates,
+              name: e.proj_name,
+              prodCount: e.production_count
+            };
+            selected.push(projObj);
+          }
+        })
+      }
+    })
+  }
 
   sigma.classes.graph.addMethod('neighbors', function(nodeId) {
     var k,
