@@ -1,14 +1,14 @@
 <style type="text/css">
   #sigma-container{
     background-color: white;
-    width: 45%;
-    height: 100%;
+    width: 47%;
+    height: 81%;
     float:left;
   }
   #map-one{
-    width:45%;
+    width:47%;
     float: right;
-    height: 100%;
+    height: 81%;
     background-color: black;
   }
 /*  #autocomplete{
@@ -17,8 +17,37 @@
     top: 40px;
     z-index:100; 
   }*/
+  body{
+    font-family: Oswald, Arial;
+  }
+  a{
+    text-decoration: none;
+    color: #000;
+  }
+  a:hover{
+    color: #fff;
+  }
+  .head{
+    background-color: #ccc;
+    width: 100%;
+    height: 10%;
+    display: block;
+    padding: 5px;
+  }
+  table{
+    width: 100%;
+  }
+  td{
+    width: 53%;
+  }
 </style>
+<div class="head">
+Examples: <a class="example" href="#">Agip Energy & Natural Resource</a> | <a class="example" href="#">Shell</a> | <a class="example" href="#">Chevron Nigeria</a><br>
+Search here:
 <input id="autocomplete"/>
+</div>
+ 
+<table><tbody><tr><td><h2>Contract network</h2></td><td><h2>Map of contracts</h2></td></tr></tbody></table>
 <div id="sigma-container"></div>
 <div id="map-one" calss="map"></div>
 
@@ -33,6 +62,7 @@
  <link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.css' rel='stylesheet' />
  <script src="http://d3js.org/d3.v3.min.js"></script>
  <script src="http://d3js.org/topojson.v1.min.js"></script>
+ <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 <script>
 
 // API access
@@ -49,7 +79,6 @@
   var selected = [];
 
   function initData(data){
-    console.log(data);
     data.data.forEach(function(e){
       if(e.company_count > 0){
         e.companies.forEach(function(k){
@@ -80,7 +109,6 @@
         pointLoc.push(e.coordinates[0].loc);
       }
     });
-    console.log(pointLoc);
 
     pointLoc.forEach(function(e){
       var addPointData = {
@@ -91,31 +119,69 @@
         },
         "properties": {}
       };
-      console.log(addPointData);
       geojson[0]["features"].push(addPointData);
     });
 
-    var myLayer = L.mapbox.featureLayer(geojson, {
-      pointToLayer: function(feature, latlon) {
-        return L.circleMarker(latlon, {
-          fillColor: '#ff0000',
-          fillOpacity: 0.8,
-          stroke: false
-        });
-      }
-    }).addTo(map);
+    // var myLayer = L.mapbox.featureLayer(geojson, {
+    //   pointToLayer: function(feature, latlon) {
+    //     return L.circleMarker(latlon, {
+    //       fillColor: '#ff0000',
+    //       fillOpacity: 0.8,
+    //       stroke: false
+    //     });
+    //   }
+    // }).addTo(map);
   };
 
   // MAPPING stuff
 
+    var oilBlocksGlobal = {};
+    var oilBlocksShare = {};
+    var oilBlocksOriginal = {};
+
     L.mapbox.accessToken = 'pk.eyJ1IjoiaWVjcyIsImEiOiJrY3VCVUNNIn0.7dZ0swuFiyqzhMeqwcNVgQ';
     var map = L.mapbox.map('map-one', 'mapbox.light').setView([9,8.5], 6);
-    layer = L.geoJson(null, { style: { color: '#333', weight: 1 }})
-    map.addLayer(layer)
-    d3.json('https://rawgit.com/bencekd/nigeria_licences_network/master/sample/oil-blocks-nosdra.gz.json', function(error, data) {
-      var neighborhoods = topojson.feature(data, data.objects.counties)
-      layer.addData(neighborhoods);
+    layer = L.geoJson(null, { style: { color: '#000', weight: 0.7, fillOpacity: 0.01 }});
+    d3.json('https://rawgit.com/bencekd/nigeria_licences_network/master/sampleData/oil-blocks-nosdra.gz.json', function(error, data) {
+      var oilBlocks = topojson.feature(data, data.objects["oil-blocks-nosdra"]);
+      oilBlocksGlobal = oilBlocks;
+      oilBlocksOriginal = $.extend(true, {}, oilBlocks);
+      layer.addData(oilBlocks);
     });
+    map.addLayer(layer);
+
+    function highlightFields(operator){
+      oilBlocksGlobal = $.extend(true, {}, oilBlocksOriginal);
+      oilBlocksShare = $.extend(true, {}, oilBlocksOriginal);
+      try {
+        map.removeLayer(layerHighlight);
+        map.removeLayer(layerShare);  
+      } catch (e) {
+        console.log("ERROR: " + e);
+      }
+
+      var re = new RegExp("(" + operator + ")");    
+      var toRemove = [];
+      var toRemoveShare = [];
+
+      for(var i = 0; i < oilBlocksGlobal.features.length; i++){
+        if(re.test(oilBlocksGlobal.features[i].properties.OPERATOR) == false || oilBlocksGlobal.features[i].properties.OPERATOR == ""){
+          toRemove.push(i);
+        }
+
+      }
+      console.log(toRemove);
+
+      var delCount = 0;
+      toRemove.forEach(function(e){
+        oilBlocksGlobal.features.splice(e-delCount,1);
+        delCount += 1;
+      })
+
+      layerHighlight = L.geoJson(null, { style: { color: '#000', weight: 1, opacity: 1, fillOpacity: 0.75, fillColor: '#FF9F1C'}});
+      layerHighlight.addData(oilBlocksGlobal);
+      map.addLayer(layerHighlight);
+    }
 
     // SIGMA network viz
 
@@ -212,6 +278,7 @@
           onChooseEvent: function(){
             var val = $("#autocomplete").getSelectedItemData()
             zoomOnNode(decodeLabel(val));
+            highlightFields(val.split(" ")[0]);
           }
         },
         theme: "round"
@@ -237,5 +304,11 @@
   function decodeLabel(label){
     return $.inArray(label, nodeLabels);
   }
+
+  $(".example").click(function(e){
+    var val = e.currentTarget.innerText
+    zoomOnNode(decodeLabel(val));
+    highlightFields(val.split(" ")[0]);
+  })
 
 </script>
