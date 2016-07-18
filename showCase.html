@@ -1,0 +1,409 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.js'></script>
+ <link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.css' rel='stylesheet' />
+ <link href='https://cdnjs.cloudflare.com/ajax/libs/please-wait/0.0.5/please-wait.min.css' rel='stylesheet' />
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/please-wait/0.0.5/please-wait.min.js' type="text/javascript"></script>
+ <link href='https://cdnjs.cloudflare.com/ajax/libs/spinkit/1.2.5/spinkit.min.css' rel='stylesheet' />
+ <link href='https://cdnjs.cloudflare.com/ajax/libs/spinkit/1.2.5/spinners/2-double-bounce.min.css' rel='stylesheet' />
+ <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+ 
+<style type="text/css">
+    body{
+      font-family: Oswald, Arial;
+    }
+	#myChart{
+		width:400px;
+	}
+	#myBar{
+		width: 300px;
+		height: 30%;
+	}
+    .container{
+        width:100%;
+        height: 100%;
+    }
+    #map-one{
+      width:100%;
+      float: right;
+      height: 35%;
+      background-color: black;
+    }
+    .spinner {
+      width: 40px;
+      height: 40px;
+
+      position: relative;
+      margin: 100px auto;
+    }
+
+    .double-bounce1, .double-bounce2 {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background-color: #fff;
+      opacity: 0.6;
+      position: absolute;
+      top: 0;
+      left: 0;
+      
+      -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+      animation: sk-bounce 2.0s infinite ease-in-out;
+    }
+
+    .double-bounce2 {
+      -webkit-animation-delay: -1.0s;
+      animation-delay: -1.0s;
+    }
+
+    @-webkit-keyframes sk-bounce {
+      0%, 100% { -webkit-transform: scale(0.0) }
+      50% { -webkit-transform: scale(1.0) }
+    }
+
+    @keyframes sk-bounce {
+      0%, 100% { 
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+      } 50% { 
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+      }
+    }
+
+    .pg-loading-logo-header{
+        display: none;
+    }
+    .map{
+        margin-bottom: 15px;
+    }
+</style>
+
+<div class="container">
+    <div class="col-md-9">
+        <h2>Location</h2>
+        <div id="map-one" class="map"></div>
+        <h2>Production volumes</h2>
+        <canvas id="myBar" width="200" height="65"></canvas>
+    </div>
+    <div class="col-md-3">
+        <h2 id="title"></h2>
+        <h3>Contract sharing</h3>
+        <canvas id="myChart" width="600" height="400"></canvas>
+        <div id="links"></div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+
+window.loading_screen = window.pleaseWait({
+        backgroundColor: '#261447',
+        loadingHtml: '<div class="spinner"><div class="double-bounce1"></div> <div class="double-bounce2"></div></div>'
+    });
+
+var fieldLocations = [{"contract":"OPL-246","field":"Acpo","country":"Nigeria","long":3.109825,"lat":6.832846},
+{"contract":"OPL-216","field":"Agbami","country":"Nigeria","long":3.461379,"lat":5.561567},
+{"contract":"OPL-222","field":"Usan","country":"Nigeria","long":3.557062,"lat":7.456029},
+{"contract":"OPL-090","field":"Okwori","country":"Nigeria","long":3.863408,"lat":6.979083},
+{"contract":"OML-119-A","field":"Okono","country":"Nigeria","long":3.995907,"lat":7.279297},
+{"contract":"OML-67","field":"Ebok","country":"Nigeria","long":4.109992,"lat":8.174553},
+{"contract":"OML-99","field":"Amenam","country":"Nigeria","long":4.142583,"lat":7.510714},
+{"contract":"OML-13","field":"Kwa Ibo","country":"Nigeria","long":4.546969,"lat":7.997661},
+{"contract":"OML-118","field":"Bonga","country":"Nigeria","long":4.550722,"lat":4.598194},
+{"contract":"OML-79","field":"Ea","country":"Nigeria","long":4.812286,"lat":5.3619},
+{"contract":"OML-90","field":"Akepo","country":"Nigeria","long":5.255233,"lat":5.276361},
+{"contract":"OPL-209","field":"Erha","country":"Nigeria","long":5.359894,"lat":4.335106},
+{"contract":"OML-56","field":"Obodugwa","country":"Nigeria","long":5.685478,"lat":6.358299},
+{"contract":"OML-125","field":"ABO","country":"Nigeria","long":5.751206,"lat":4.474583}]
+
+var prodVols = [{"field":"ABO","year":2010,"volume":11000680},
+{"field":"ABO","year":2011,"volume":10381433},
+{"field":"ABO","year":2012,"volume":8489519},
+{"field":"ABO","year":2013,"volume":8022897},
+{"field":"ABO","year":2014,"volume":8010447},
+{"field":"Agbami","year":2010,"volume":87169398},
+{"field":"Agbami","year":2011,"volume":88304428},
+{"field":"Agbami","year":2012,"volume":85041559},
+{"field":"Agbami","year":2013,"volume":84871128},
+{"field":"Agbami","year":2014,"volume":87280118},
+{"field":"Acpo","year":2010,"volume":58444734},
+{"field":"Acpo","year":2011,"volume":55628907},
+{"field":"Acpo","year":2012,"volume":56650647},
+{"field":"Acpo","year":2013,"volume":60851269},
+{"field":"Acpo","year":2014,"volume":55311051},
+{"field":"Yoho","year":2010,"volume":32845220},
+{"field":"Yoho","year":2011,"volume":30324058},
+{"field":"Yoho","year":2012,"volume":27685727},
+{"field":"Yoho","year":2013,"volume":25141246},
+{"field":"Yoho","year":2014,"volume":19315490},
+{"field":"Erha","year":2010,"volume":60722082},
+{"field":"Erha","year":2011,"volume":53045402},
+{"field":"Erha","year":2012,"volume":45680658},
+{"field":"Erha","year":2013,"volume":37657596},
+{"field":"Erha","year":2014,"volume":36159774},
+{"field":"Okono","year":2010,"volume":17704675},
+{"field":"Okono","year":2011,"volume":17383748},
+{"field":"Okono","year":2012,"volume":16348665},
+{"field":"Okono","year":2013,"volume":14904197},
+{"field":"Okono","year":2014,"volume":12794563},
+{"field":"Usan","year":2012,"volume":29409511},
+{"field":"Usan","year":2013,"volume":39191504},
+{"field":"Usan","year":2014,"volume":44520502},
+{"field":"Ebok","year":2011,"volume":2655667},
+{"field":"Ebok","year":2012,"volume":11143721},
+{"field":"Ebok","year":2013,"volume":12881551},
+{"field":"Ebok","year":2014,"volume":10305035},
+{"field":"Ea","year":2010,"volume":29524473},
+{"field":"Ea","year":2011,"volume":23082127},
+{"field":"Ea","year":2012,"volume":21075517},
+{"field":"Ea","year":2013,"volume":15626909},
+{"field":"Ea","year":2014,"volume":7199842},
+{"field":"Okwori","year":2010,"volume":14528987},
+{"field":"Okwori","year":2011,"volume":12841416},
+{"field":"Okwori","year":2012,"volume":12094784},
+{"field":"Okwori","year":2013,"volume":9532752},
+{"field":"Okwori","year":2014,"volume":8204342},
+{"field":"Bonga","year":2010,"volume":65023519},
+{"field":"Bonga","year":2011,"volume":52336416},
+{"field":"Bonga","year":2012,"volume":64067957},
+{"field":"Bonga","year":2013,"volume":50904162},
+{"field":"Bonga","year":2014,"volume":58238730},
+{"field":"Ebok","year":2013,"volume":12740000}];
+
+var contracts = [{"contract":"OML-13","company":"Shell","share":30},
+{"contract":"OML-13","company":"Nigerian National Petroleum Corporation","share":55},
+{"contract":"OML-13","company":"Total","share":10},
+{"contract":"OML-13","company":"Eni","share":5},
+{"contract":"OML-79","company":"Shell","share":30},
+{"contract":"OML-79","company":"Nigerian National Petroleum Corporation","share":55},
+{"contract":"OML-79","company":"Total","share":10},
+{"contract":"OML-79","company":"Eni","share":5},
+{"contract":"OML-99","company":"Total","share":40},
+{"contract":"OML-99","company":"Nigerian National Petroleum Corporation","share":60},
+{"contract":"OML-67","company":"Oriental Energy Resources Ltd","share":60},
+{"contract":"OML-67","company":"Afren","share":40},
+{"contract":"OML-125","company":"Eni","share":85},
+{"contract":"OML-125","company":"Oando","share":15},
+{"contract":"OML-118","company":"Shell","share":55},
+{"contract":"OML-118","company":"ExxonMobil","share":20},
+{"contract":"OML-118","company":"Total","share":12.5},
+{"contract":"OML-118","company":"Eni","share":12.5},
+{"contract":"OML-90","company":"Sogenal","share":60},
+{"contract":"OML-90","company":"Oando","share":40}];
+
+var data = {
+    labels: [
+        "Red",
+        "Blue",
+        "Yellow"
+    ],
+    datasets: [
+        {
+            data: [300, 50, 100],
+            backgroundColor: [
+                "#FF6384",
+                "#36A2EB",
+                "#FFCE56"
+            ],
+            hoverBackgroundColor: [
+                "#FF6384",
+                "#36A2EB",
+                "#FFCE56"
+            ]
+        }]
+};
+
+var data2 = {
+    labels: [
+        "Red",
+        "Blue",
+        "Yellow"
+    ],
+    datasets: [
+        {
+            data: [300, 50, 100],
+            backgroundColor: [
+                "#FF6384",
+                "#36A2EB",
+                "#FFCE56"
+            ],
+            hoverBackgroundColor: [
+                "#FF6384",
+                "#36A2EB",
+                "#FFCE56"
+            ]
+        }]
+};
+
+var ctx = document.getElementById("myChart");
+var myDoughnutChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: data,
+});
+
+var ctx = document.getElementById("myBar");
+var myBar = new Chart(ctx, {
+    type: 'bar',
+    data: data2,
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        },
+        tooltips: {
+            enabled: true,
+            mode: 'singel',
+            callbacks: {
+                label: function(tooltipItems, data) {
+                        console.log(tooltipItems);
+                        console.log(data);
+                        return tmp;
+                }
+            }
+        }
+    }
+});
+
+function initProdVols(field){
+    var vols = [];
+    var years = [];
+
+    prodVols.forEach(function(e){
+        if(e.field == field){
+            years.push(e.year);
+            vols.push(e.volume);
+        }
+    })
+
+    var volData = {
+        labels: years,
+        datasets: [{
+            label: field,
+            borderColor: "rgba(0,0,0,1)",
+            backgroundColor: "rgba(38,20,71,0.8)",
+            data: vols
+        }]
+    }
+    console.log(years);
+    console.log(vols);
+    console.log(volData);
+
+    myBar.data.labels = volData.labels;
+    myBar.data.datasets = volData.datasets;
+    myBar.update();
+}
+
+L.mapbox.accessToken = 'pk.eyJ1IjoiaWVjcyIsImEiOiJrY3VCVUNNIn0.7dZ0swuFiyqzhMeqwcNVgQ';
+var map = L.mapbox.map('map-one', 'mapbox.light').setView([9,8.5], 5);
+
+  var geojson = [{
+    "type": "FeatureCollection",
+    "features": []
+  }];
+
+var myLayer;
+
+function initMap(field){
+    var geojson = [{
+      "type": "FeatureCollection",
+      "features": []
+    }];
+
+    var coord = [];
+    fieldLocations.forEach(function(e){
+        if(e.field == field){
+            var addPointData = {
+              "type": "Feature",
+              "geometry": {
+                "type": "Point",
+                "coordinates": [e.long, e.lat]
+              },
+              "properties": {}
+            };
+            geojson[0]["features"].push(addPointData);
+            coord = [e.lat, e.long];
+        }
+    })
+
+    myLayer = L.mapbox.featureLayer(geojson, {
+      pointToLayer: function(feature, latlon) {
+        return L.circleMarker(latlon, {
+          fillColor: '#ff0000',
+          fillOpacity: 0.8,
+          stroke: false
+        });
+      }
+    }).addTo(map);
+
+    map.setView(coord, 6)
+}
+
+function initShare(field){
+    var contract = "";
+
+    fieldLocations.forEach(function(e){
+        if(e.field == field){
+            contract = e.contract;
+        }
+    })
+
+    var labels = [];
+    var shares = [];
+
+    contracts.forEach(function(e){
+        if(e.contract == contract){
+            labels.push(e.company);
+            shares.push(e.share);
+        }
+    })
+
+    var sum = 0;
+    shares.forEach(function(e){
+        sum += e;
+    });
+    if(sum < 100){
+        labels.push("Undisclosed");
+        shares.push(100-sum)
+    };
+    console.log(shares);
+    myDoughnutChart.data.labels = labels;
+    myDoughnutChart.data.datasets[0].data = shares;
+    myDoughnutChart.update();
+}
+
+function initAll(field){
+    initProdVols(field);
+    initShare(field);
+    initMap(field);
+    $("#title").html(field + " field");
+};
+
+$(document).ready(function(){
+    fieldLocations.forEach(function(e){
+        var appendElement = $('<a>', {
+            class: "field",
+            html: e.field + "<br>",
+            href: "#",
+            'data-field': e.field
+        });
+        $("#links").append(appendElement)
+    });
+
+    $("#links").delegate('.field', 'click', function(e){
+        console.log(e);
+        var field = e.currentTarget.dataset.field;
+        map.removeLayer(myLayer);
+        initAll(field);
+    });
+
+    initAll("Agbami");
+    window.loading_screen.finish();
+})
+
+</script>
